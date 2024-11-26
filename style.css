@@ -1,0 +1,9 @@
+.custom-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;  /* Set your custom width here */
+    height: 2px;   /* Set your desired underline thickness */
+    background-color: #D12C2A; /* Crimson Red color */
+}
